@@ -1,0 +1,50 @@
+button
+{
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#00FFFF), to(#DC143C));
+  color: #191170;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  height: 80px;
+  border: 1px solid aqua;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transition: all .4s ease;
+}
+body
+{
+  background-image: url(стена.jpg);
+}
+text
+{
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#00FFFF), to(#DC143C));
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 40px;
+  color: #191170;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 34%;
+}
+button:hover
+{
+  transition: all .80s ease;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#DC143C), to(#00FFFF));
+}
+.clicked
+{
+  background-color: solid black;
+}
+img
+{
+  height: 400;
+  width: 300;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 70%;
+}

@@ -1,0 +1,13 @@
+img
+{
+  width: 640px;
+  height: 360px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+body
+{
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#483D8B), to(#483D8B));;
+}
